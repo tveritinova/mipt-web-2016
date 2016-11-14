@@ -3,8 +3,12 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+.label {
+  font-size: 15px;
+}
+
 #wrapper {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   margin-top: 30px;
   height: auto;
@@ -15,21 +19,22 @@ body {
 }
 
 #left {
-  width: 30%;
+  width: 25%;
   background-color: #e8d1c0;
   padding: 10px;
+  word-wrap: break-word;
 }
 
 #right {
   left: 30%;
-  width: 70%;
+  width: 75%;
   height: 100%;
   padding: 10px;
 }
 
 .name {
   margin: 10px;
-  font-size: 30px;
+  font-size: 20px;
   color: #656667;
 }
 
@@ -41,7 +46,7 @@ body {
   background-color: #dfd4cf;
   border-radius: 5px;
   border: 2px solid;
-  font-size: 20px;
+  font-size: 15px;
   padding-bottom: 5px;
   padding-left: 5px;
   color: #656667;
@@ -50,7 +55,7 @@ body {
 
 .contact-label {
   margin: 5px;
-  font-size: 15px;
+  font-size: 10px;
   color: #656667;
 }
 
@@ -63,12 +68,13 @@ a:hover {
 }
 
 .article {
-  padding: 10px;
+  padding: 13px;
   width: 100%;
+  font-size: 10px;
 }
 
 .date {
-  font-size: 17px;
+  font-size: 15px;
   font-style: italic;
   color: #76665f;
   margin-bottom: 5px;
